@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Document</title>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script type="text/javascript"> 
+			$(document).ready(function(){
+				$("input").click(function(){
+					$("h1").text("CSIE@CGU");
+					$("p").text("怎麼那麼棒！！");
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<input type="button" onclick="change()" value="Change this document.">
+		<h1 id="HID">CGU</h1>
+		<p id="PID">好棒棒</p>
+	</body>
+</html>
